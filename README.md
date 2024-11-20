@@ -1,5 +1,5 @@
 
-# ml4Vfx
+# Intro to Machine Learning for VFX
 
 ## Overview
 
