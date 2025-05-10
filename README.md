@@ -1,81 +1,77 @@
-
-# Intro to Machine Learning
+# Art from the Machine
 
 ## Overview
 
-**ml4Vfx** is a Python package designed to bridge the gap between **machine learning** and **visual effects (VFX)** workflows. 
-This project is tailored for VFX artists, developers, and enthusiasts who want to leverage the power of machine learning to create, 
-enhance, and optimize visual effects.
+**ArsMachina** is a Python package that infuses modern **machine‑learning** techniques into **visual‑effects (VFX)** and digital‑art pipelines. Whether you are a VFX artist looking to automate labor‑intensive tasks or a technical director eager to prototype generative tools, ArsMachina delivers a friendly, modular toolbox for creating art and beauty *from the machine*.
 
-With a focus on usability, modularity, and scalability, `ml4Vfx` offers tools, utilities, and tutorials to help integrate ML 
-techniques into VFX pipelines effectively.
+With an emphasis on usability, extensibility, and GPU performance, `arsmachina` provides ready‑made operators, utilities, and tutorials that make it easy to weave ML into Houdini, Blender, Nuke, and other industry staples.
 
 ---
 
 ## Features
 
-- **Prebuilt Models and Utilities**: Includes tools for common VFX tasks such as object detection, image segmentation, and generative effects.
-- **Seamless Integration**: Designed to integrate smoothly with industry-standard VFX tools like Houdini, Blender, and Nuke.
-- **GPU Acceleration**: Optimized for GPU-heavy tasks using libraries like PyTorch and CUDA.
-- **Tutorials and Notebooks**: Hands-on examples and detailed guides to get started with ML in VFX.
-- **Extensibility**: Modular design to add custom models and extend functionality as needed.
+* **Pre‑built Models & Utilities** – Object detection, image segmentation, latent‑diffusion style transfer, and more, tuned for VFX needs.
+* **Seamless DCC Integration** – Drop‑in wrappers for Houdini TOPs, Blender Python, and Nuke Gizmos.
+* **GPU Acceleration** – Optimised kernels using PyTorch + CUDA so you spend time iterating, not waiting.
+* **Tutorials & Example Notebooks** – Hands‑on guides that walk you from "Hello Tensor" to production‑ready FX shots.
+* **Extensible Architecture** – Clear entry points for plugging in your own datasets, models, and node flavours.
 
 ---
 
-## Why ml4Vfx?
+## Why ArsMachina?
 
-Machine learning has unlocked new possibilities in VFX production, from automating time-consuming tasks to generating complex, 
-realistic effects that were previously unattainable. `ml4Vfx` aims to:
+Machine learning has opened new creative frontiers—auto‑rotoscoping entire plates, synthesising photoreal textures, or animating crowds at the click of a button. `arsmachina` aims to:
 
-- Empower VFX professionals with accessible ML tools.
-- Provide a framework for experimentation with ML techniques in VFX.
-- Reduce the barrier to entry for using ML in creative pipelines.
+* **Empower VFX professionals** with accessible ML primitives.
+* **Provide a playground** for experimenting with generative and analytical techniques.
+* **Lower the barrier to entry** so artists can focus on storytelling instead of boilerplate code.
 
 ---
 
-## Getting Started
+## Getting Started
 
 ### Installation
 
-Clone the repository and install the package:
+Clone the repository and install locally:
 
 ```bash
-git clone https://github.com/<your-username>/ml4Vfx.git
-cd ml4Vfx
+git clone https://github.com/suhailphotos/ArsMachina.git
+cd ArsMachina
 pip install .
 ```
 
-Or, add it to your project using Poetry:
+or add it to a Poetry‑managed project:
 
 ```bash
-poetry add ml4Vfx
+poetry add arsmachina
 ```
+
+> **Python ≥ 3.12** and a recent CUDA‑enabled GPU are recommended for full functionality.
 
 ---
 
 ## Resources
 
-- **Documentation**: Comprehensive documentation available in the `docs` folder.
-- **Examples**: Explore real-world use cases in the `notebook` directory.
-- **Community**: Join discussions and share ideas on our GitHub Discussions page.
+* **Documentation** – API reference and guides live in the `docs/` folder.
+* **Examples** – Real‑world notebooks reside in the upcoming course repository `ml4Vfx`.
+* **Community** – Open a Discussion or file an Issue—contributions and ideas are welcome!
 
 ---
 
 ## Contributing
 
-We welcome contributions! Whether you're fixing bugs, adding features, or creating tutorials, your input is valued. 
-Check out the `CONTRIBUTING.md` file for guidelines.
+Bug fixes, new operators, and tutorial notebooks are all appreciated. Please read `CONTRIBUTING.md` for coding standards and a quick start on setting up a dev environment.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+Released under the MIT License. See `LICENSE` for details.
 
 ---
 
-## Stay Connected
+## Stay Connected
 
-- **Author**: Suhail
-- **GitHub**: [ml4Vfx Repository](https://github.com/<your-username>/ml4Vfx)
+* **Author**  Suhail
+* **GitHub**  [https://github.com/suhailphotos/ArsMachina](https://github.com/suhailphotos/ArsMachina)
 
